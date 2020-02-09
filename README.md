@@ -24,3 +24,9 @@ The code should be easy to modify.
 - [Keywords Classification](Classification_Bibliography.md) (I need to add keywords in bibtex for this one)
 - [Specific Paper Selection by ID](Selection_Bibliography.md) (Almost ramdom selection)
 - [Specific Paper Selection by Author](My_Bibliography.md) (my papers ... )
+
+
+## How to contribute
+
+- Add new entries in the bib files (yours if you want). Please be carefull to not add bibtex several times.
+- Create new mardowns files by modifying/improving the script
