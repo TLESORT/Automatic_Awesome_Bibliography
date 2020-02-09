@@ -1,6 +1,6 @@
 
 
-from utils import get_md_entry
+from utils import generate_md_file
 import bibtexparser
 
 file_name = 'bibtex.bib'
@@ -9,50 +9,6 @@ with open(file_name) as bibtex_file:
 
 bb_db = bibtexparser.loads(bibtex_str)
 list_of_dic = bb_db.entries
-
-
-bb_db = bibtexparser.loads(bibtex_str)
-list_of_dic = bb_db.entries
-
-def get_md(DB, item, key):
-
-    all_str = ""
-
-    number_of_entries = len(DB)
-    for i in range(number_of_entries):
-        if key in DB[i].keys():
-            #if conference in DB[i][key]:
-            if any(elem in DB[i][key] for elem in item):
-                all_str += get_md_entry(DB[i])
-
-    return all_str
-
-
-def generate_md_file(DB, list_classif, key, plot_title_fct, filename):
-    """
-
-    :param DB: list of dictionnary with bibtex inside
-    :param list_classif: list with categories we want to put inside md file
-    :param key: key allowing to search in the bibtex dictionnary author/ID/year/keyword...
-    :param plot_title_fct: function to plot category title
-    :param filename: name of the markdown file
-    :return: nothing
-    """
-
-    all_in_one_str = ""
-
-    for item in list_classif:
-
-        str = get_md(list_of_dic, item, key)
-
-        if str != "":
-            all_in_one_str += plot_title_fct(item)
-            all_in_one_str += str
-
-    f = open(filename, "w")
-    f.write(all_in_one_str.encode('utf8'))
-    f.close()
-
 
 ################################### SORT BY CONFERENCE ####################################
 def plot_conf_title(conference):
