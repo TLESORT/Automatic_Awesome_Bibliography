@@ -27,7 +27,18 @@
 - **Three scenarios for continual learning**, (2019) by *van de Ven, Gido M and Tolias, Andreas S*
 - **Overcoming Catastrophic Forgetting With Unlabeled Data in the Wild**, (2019) by *Lee, Kibok, Lee, Kimin, Shin, Jinwoo and Lee, Honglak*
 - **Large scale incremental learning**, (2019) by *Wu, Yue, Chen, Yinpeng, Wang, Lijuan, Ye, Yuancheng, Liu, Zicheng, Guo, Yandong and Fu, Yun*
+- **Learning a Unified Classifier Incrementally via Rebalancing**, (2019) by *Hou, Saihui, Pan, Xinyu, Loy, Chen Change, Wang, Zilei and Lin, Dahua*
 - **Rapid learning or feature reuse? towards understanding the effectiveness of maml**, (2019) by *Raghu, Aniruddh, Raghu, Maithra, Bengio, Samy and Vinyals, Oriol*
+- **DisCoRL: Continual Reinforcement Learning via Policy Distillation**, (2019) [paper](http://arxiv.org/abs/1907.05855)  by *Ren{\'{e}} Traor{\'{e}} and
+Hugo Caselles{-}Dupr{\'{e}} and
+Timoth{\'{e}}e Lesort and
+Te Sun and
+Guanghang Cai and
+Natalia D{\'{\i}}az Rodr{\'{\i}}guez and
+David Filliat*
+- **Continual Reinforcement Learning deployed in Real-life using PolicyDistillation and Sim2Real Transfer**, (2019) by *Kalifou, René Traoré, Caselles-Dupré, Hugo, Lesort, Timothée, Sun, Te, Diaz-Rodriguez, Natalia and Filliat, David *
+- **Closed-loop Memory GAN for Continual Learning**, (2019) [paper](http://dl.acm.org/citation.cfm?id=3367471.3367504)  by *Rios, Amanda and Itti, Laurent*
+- **Marginal replay vs conditional replay for continual learning**, (2019) by *Lesort, Timoth{\'e}e, Gepperth, Alexander, Stoian, Andrei and Filliat, David*
 
 ## Papers in 2018
 - **Towards Robust Evaluations of Continual Learning**, (2018) by *Farquhar, Sebastian and Gal, Yarin*
@@ -41,8 +52,13 @@
 - **Modular meta-learning**, (2018) by *Ferran Alet, Tom{\'a}s Lozano-P{\'e}rez and Leslie Pack Kaelbling*
 - **Lifelong learning via progressive distillation and retrospection**, (2018) by *Hou, Saihui, Pan, Xinyu, Change Loy, Chen, Wang, Zilei and Lin, Dahua*
 - **End-to-end incremental learning**, (2018) by *Castro, Francisco M, Mar{\'\i}n-Jim{\'e}nez, Manuel J, Guil, Nicol{\'a}s, Schmid, Cordelia and Alahari, Karteek*
+- **Packnet: Adding multiple tasks to a single network by iterative pruning**, (2018) by *Mallya, Arun and Lazebnik, Svetlana*
+- **Piggyback: Adapting a single network to multiple tasks by learning to mask weights**, (2018) by *Mallya, Arun, Davis, Dillon and Lazebnik, Svetlana*
 - **Progress \& compress: A scalable framework for continual learning**, (2018) by *Schwarz, Jonathan, Luketina, Jelena, Czarnecki, Wojciech M, Grabska-Barwinska, Agnieszka, Teh, Yee Whye, Pascanu, Razvan and Hadsell, Raia*
+- **FearNet: Brain-Inspired Model for Incremental Learning**, (2018) [paper](https://openreview.net/forum?id=SJ1Xmf-Rb)  by *Ronald Kemker and Christopher Kanan*
 - **Born to learn: The inspiration, progress, and future of evolved plastic artificial neural networks**, (2018) [paper](http://www.sciencedirect.com/science/article/pii/S0893608018302120)  by *Andrea Soltoggio, Kenneth O. Stanley and Sebastian Risi*
+- **{Lifelong Learning of Spatiotemporal Representations with Dual-Memory Recurrent Self-Organization}**, (2018) [paper](http://arxiv.org/abs/1805.10966)  by *Parisi, German I., Jun, Tani, Weber, Cornelius and Wermter, Stefan*
+- **New Metrics and Experimental Paradigms for Continual Learning**, (2018) by *T. L. Hayes, R. Kemker, N. D. Cahill and C. Kanan*
 - **Lifelong Machine Learning**, (2018) by *Chen, Zhiyuan, Liu, Bing, Brachman, Ronald, Stone, Peter and Rossi, Francesca*
 
 ## Papers in 2017
@@ -54,7 +70,9 @@
 - **Learning without forgetting**, (2017) by *Li, Zhizhong and Hoiem, Derek*
 - **Lifelong Generative Modeling**, (2017) by *Ramapuram, Jason, Gregorova, Magda and Kalousis, Alexandros*
 - **icarl: Incremental classifier and representation learning**, (2017) by *Rebuffi, Sylvestre-Alvise, Kolesnikov, Alexander, Sperl, Georg and Lampert, Christoph H*
+- **Growing a brain: Fine-tuning by increasing model capacity**, (2017) by *Wang, Yu-Xiong, Ramanan, Deva and Hebert, Martial*
 - **Model-agnostic meta-learning for fast adaptation of deep networks**, (2017) by *Finn, Chelsea, Abbeel, Pieter and Levine, Sergey*
+- **Expert gate: Lifelong learning with a network of experts**, (2017) by *Aljundi, Rahaf, Chakravarty, Punarjay and Tuytelaars, Tinne*
 - **{Measuring Catastrophic Forgetting in Neural Networks}**, (2017) by *{Kemker}, R., {McClure}, M., {Abitino}, A., {Hayes}, T. and 
 {Kanan}, C.*
 - **{CORe50: a New Dataset and Benchmark for Continuous Object Recognition}**, (2017) [paper](http://proceedings.mlr.press/v78/lomonaco17a.html)  by *Vincenzo Lomonaco and Davide Maltoni*
@@ -64,10 +82,16 @@
 {Soyer}, H., {Kirkpatrick}, J., {Kavukcuoglu}, K., 
 {Pascanu}, R. and {Hadsell}, R.*
 - **{Incremental learning algorithms and applications}**, (2016) [paper](https://hal.archives-ouvertes.fr/hal-01418129)  by *Gepperth, Alexander and Hammer, Barbara*
+- **Dual-memory Deep Learning Architectures for Lifelong Learning of Everyday Human Behaviors**, (2016) [paper](http://dl.acm.org/citation.cfm?id=3060832.3060854)  by *Lee, Sang-Woo, Lee, Chung-Yeon, Kwak, Dong-Hyun, Kim, Jiwon, Kim, Jeonghee and Zhang, Byoung-Tak*
+
+## Papers in 2015
+- **Lifelong learning with non-iid tasks**, (2015) by *Pentina, Anastasia and Lampert, Christoph H*
+- **Herbdisc: Towards lifelong robotic object discovery**, (2015) by *Collet, Alvaro, Xiong, Bo, Gurau, Corina, Hebert, Martial and Srinivasa, Siddhartha S*
 
 ## Papers in 2013
 - **{An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks}**, (2013) by *{Goodfellow}, I.~J., {Mirza}, M., {Xiao}, D., {Courville}, A. and 
 {Bengio}, Y.*
+- **{Lifelong Machine Learning Systems: Beyond Learning Algorithms}**, (2013) by *Silver, Daniel L, Yang, Qiang and Li, Lianghao*
 
 ## Papers in 1999
 - **{Catastrophic forgetting in connectionist networks}**, (1999) by *French, Robert M.*

@@ -19,7 +19,10 @@ conferences = [["ICLR", "International Conference on Learning Representations"],
                ["ICCV", "International Conference on Computer Vision"],
                ["ECCV", "European Conference on Computer Vision"],
                ["NeuriPS", "NIPS", "Neural Information Processing Systems"],
-               ["ICML", "International Conference on Machine Learning"]]
+               ["ICML", "International Conference on Machine Learning"],
+               ["IJCAI", "International Joint Conference on Artificial Intelligence"],
+               ["IJCNN", "International Joint Conference on Neural Networks"],
+               ["ICANN", "International Conference on Artificial Neural Networks"]]
 
 generate_md_file(DB=list_of_dic, list_classif=conferences, key="booktitle", plot_title_fct=plot_conf_title, filename= "Conferences_Bibliography.md")
 
