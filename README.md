@@ -19,11 +19,11 @@ The code should be easy to modify.
 
 ## Examples of mardown files created in the topic of continual learning
 
-- [Conferences Classification](Conferences_Bibliography.md)
-- [Chronological Classification](Chronological_Bibliography.md)
-- [Keywords Classification](Classification_Bibliography.md) (I need to add keywords in bibtex for this one)
-- [Specific Paper Selection by ID](Selection_Bibliography.md) (Almost ramdom selection)
-- [Specific Paper Selection by Author](My_Bibliography.md) (my papers ... )
+- [Conferences Classification](Mardown_Files/Conferences_Bibliography.md)
+- [Chronological Classification](Mardown_Files/Chronological_Bibliography.md)
+- [Keywords Classification](Mardown_Files/Classification_Bibliography.md) (I need to add keywords in bibtex for this one)
+- [Specific Paper Selection by ID](Mardown_Files/Selection_Bibliography.md) (Almost ramdom selection)
+- [Specific Paper Selection by Author](Mardown_Files/My_Bibliography.md) (my papers ... )
 
 
 ## How to contribute

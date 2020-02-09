@@ -1,4 +1,4 @@
-
+import os
 
 def keep_last_and_only(authors_str):
     """
@@ -77,6 +77,7 @@ def generate_md_file(DB, list_classif, key, plot_title_fct, filename):
             all_in_one_str += plot_title_fct(item)
             all_in_one_str += str
 
-    f = open(filename, "w")
+    path = os.path.join("./Mardown_Files/", filename)
+    f = open(path, "w")
     f.write(all_in_one_str.encode('utf8'))
     f.close()
