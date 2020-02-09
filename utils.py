@@ -16,6 +16,11 @@ def keep_last_and_only(authors_str):
     return str_ok
 
 def get_md_entry(entry):
+    """
+    Generate a markdown line for a specific entry
+    :param entry: entry dictionary
+    :return: markdown string
+    """
     md_str = ""
     md_str += "- **" + entry['title'] + "**"
 

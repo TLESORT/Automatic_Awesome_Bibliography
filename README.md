@@ -15,9 +15,12 @@ python bibtex_to_md.py
 
 The script is only searching for keywords in bibtex attributs' entries. Then, to modify you can modify the keywords, the attributs to evaluate or the bibtex.
 We use also simple functions to plot categories titles.
+The code should be easy to modify. 
 
 ## Examples of mardown files created in the topic of continual learning
 
-### Conferences classification
-
-- [Conferences File](Conferences_Bibliography.md)
+- [Conferences Classification](Conferences_Bibliography.md)
+- [Chronological Classification](Chronological_Bibliography.md)
+- [Keywords Classification](Conferences_Bibliography.md) (I need to add keywords in bibtex for this one)
+- [Specific Paper Selection by ID](Selection_Bibliography.md) (I need to add keywords in bibtex for this one)
+- [Specific Paper Selection by Author](Selection_Bibliography.md) (my papers ... )
