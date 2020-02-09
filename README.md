@@ -21,6 +21,6 @@ The code should be easy to modify.
 
 - [Conferences Classification](Conferences_Bibliography.md)
 - [Chronological Classification](Chronological_Bibliography.md)
-- [Keywords Classification](Conferences_Bibliography.md) (I need to add keywords in bibtex for this one)
+- [Keywords Classification](Classification_Bibliography.md) (I need to add keywords in bibtex for this one)
 - [Specific Paper Selection by ID](Selection_Bibliography.md) (Almost ramdom selection)
-- [Specific Paper Selection by Author](Selection_Bibliography.md) (my papers ... )
+- [Specific Paper Selection by Author](My_Bibliography.md) (my papers ... )
