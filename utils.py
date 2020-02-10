@@ -1,4 +1,5 @@
 import os
+import bibtexparser
 
 def keep_last_and_only(authors_str):
     """
@@ -51,8 +52,7 @@ def create_bib_link(ID):
     # L66-L73
     return link
 
-
-def get_md_entry(entry):
+def get_md_entry(DB, entry):
     """
     Generate a markdown line for a specific entry
     :param entry: entry dictionary
@@ -66,11 +66,18 @@ def get_md_entry(entry):
     if 'url' in entry.keys():
         md_str += " [[paper]](" + entry['url'] + ") "
 
+
     md_str += " [[bib]](" + create_bib_link(entry['ID']) + ") "
 
     md_str += " by *" + keep_last_and_only(entry['author']) + "*"
 
     md_str += '\n'
+
+    # maybe there is a comment to write
+    if entry['ID'] in DB.strings:
+        md_str += '``` \n'
+        md_str += DB.strings[entry['ID']]
+        md_str += '``` \n'
 
     return md_str
 
@@ -86,11 +93,11 @@ def get_md(DB, item, key):
 
     all_str = ""
 
-    number_of_entries = len(DB)
+    number_of_entries = len(DB.entries)
     for i in range(number_of_entries):
-        if key in DB[i].keys():
-            if any(elem in DB[i][key] for elem in item):
-                all_str += get_md_entry(DB[i])
+        if key in DB.entries[i].keys():
+            if any(elem in DB.entries[i][key] for elem in item):
+                all_str += get_md_entry(DB, DB.entries[i])
 
     return all_str
 
