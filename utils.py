@@ -43,6 +43,9 @@ def get_bibtex_line(file, ID):
 def create_bib_link(ID):
     link = "bibtex.bib"
     start_bib, end_bib = get_bibtex_line(link, ID)
+
+    # bibtex file is one folder upon markdown files
+    link = "../" + link
     link += "#L" + str(start_bib) + "-L" + str(end_bib)
 
     # L66-L73
