@@ -7,7 +7,8 @@
 - **Efficient Lifelong Learning with {A-GEM}**, (2019) [[paper]](https://arxiv.org/abs/1812.00420)  [[bib]](../bibtex.bib#L17-L23)  by *Chaudhry, Arslan, Ranzato, Marc’Aurelio, Rohrbach, Marcus and Elhoseiny, Mohamed*
 - **Continual learning: A comparative study on how to defy forgetting in classification tasks**, (2019) [[bib]](../bibtex.bib#L67-L74)  by *Matthias De Lange, Rahaf Aljundi, Marc Masana, Sarah Parisot, Xu Jia, Ales Leonardis, Gregory Slabaugh and Tinne Tuytelaars*
 ``` 
-Extensive empirical study of CL methods (in the multi-head setting)``` 
+Extensive empirical study of CL methods (in the multi-head setting)
+``` 
 - **Continual lifelong learning with neural networks: A review**, (2019) [[paper]](http://www.sciencedirect.com/science/article/pii/S0893608019300231)  [[bib]](../bibtex.bib#L78-L89)  by *German I. Parisi, Ronald Kemker, Jose L. Part, Christopher Kanan and Stefan Wermter*
 - **Improving and Understanding Variational Continual Learning**, (2019) [[bib]](../bibtex.bib#L91-L97)  by *Siddharth Swaroop, Cuong V. Nguyen, Thang D. Bui and Richard E. Turner*
 - **Uncertainty-guided Continual Learning with Bayesian Neural Networks**, (2019) [[bib]](../bibtex.bib#L99-L105)  by *Sayna Ebrahimi, Mohamed Elhoseiny, Trevor Darrell and Marcus Rohrbach*

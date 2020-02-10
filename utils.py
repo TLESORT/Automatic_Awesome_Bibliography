@@ -26,7 +26,7 @@ def get_bibtex_line(file, ID):
 
             # first we look for the beginning line
             if start_line_number==0:
-                if ID in line:
+                if (ID in line) and not ("@String" in line):
                     start_line_number = num
             else: # after finding the start_line_number we go there
                 # the last line contains "}"
@@ -77,7 +77,7 @@ def get_md_entry(DB, entry):
     if entry['ID'] in DB.strings:
         md_str += '``` \n'
         md_str += DB.strings[entry['ID']]
-        md_str += '``` \n'
+        md_str += '\n``` \n'
 
     return md_str
 
