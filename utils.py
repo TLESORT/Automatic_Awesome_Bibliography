@@ -15,6 +15,40 @@ def keep_last_and_only(authors_str):
 
     return str_ok
 
+def get_bibtex_line(file, ID):
+
+    filename = "bibtex.bib"
+    start_line_number = 0
+    end_line_number = 0
+    with open(filename, encoding="utf-8") as myFile:
+        for num, line in enumerate(myFile, 1):
+
+            # first we look for the beginning line
+            if start_line_number==0:
+                if ID in line:
+                    start_line_number = num
+            else: # after finding the start_line_number we go there
+                # the last line contains "}"
+
+                # we are at the next entry we stop here, end_line_number have the goof value
+                if "@" in line:
+                    assert end_line_number > 0
+                    break
+
+                if "}" in line:
+                    end_line_number = num
+    assert end_line_number > 0
+    return start_line_number, end_line_number
+
+def create_bib_link(ID):
+    link = "bibtex.bib"
+    start_bib, end_bib = get_bibtex_line(link, ID)
+    link += "#L" + str(start_bib) + "-L" + str(end_bib)
+
+    # L66-L73
+    return link
+
+
 def get_md_entry(entry):
     """
     Generate a markdown line for a specific entry
@@ -27,7 +61,9 @@ def get_md_entry(entry):
     md_str += ", (" + entry['year'] + ")"
 
     if 'url' in entry.keys():
-        md_str += " [paper](" + entry['url'] + ") "
+        md_str += " [[paper]](" + entry['url'] + ") "
+
+    md_str += " [[bib]](" + create_bib_link(entry['ID']) + ") "
 
     md_str += " by *" + keep_last_and_only(entry['author']) + "*"
 
@@ -79,5 +115,5 @@ def generate_md_file(DB, list_classif, key, plot_title_fct, filename):
 
     path = os.path.join("./Mardown_Files/", filename)
     f = open(path, "w")
-    f.write(all_in_one_str.encode('utf8'))
+    f.write(all_in_one_str)
     f.close()
