@@ -74,9 +74,9 @@ def get_md_entry(DB, entry):
     md_str += '\n'
 
     # maybe there is a comment to write
-    if entry['ID'] in DB.strings:
+    if entry['ID'].lower() in DB.strings:
         md_str += '``` \n'
-        md_str += DB.strings[entry['ID']]
+        md_str += DB.strings[entry['ID'].lower()]
         md_str += '\n``` \n'
 
     return md_str

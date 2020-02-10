@@ -2,6 +2,9 @@
 ## Papers in 2020
 - **Continual learning with hypernetworks**, (2020) [[paper]](https://openreview.net/forum?id=SJgwNerKvB)  [[bib]](../bibtex.bib#L387-L394)  by *Anonymous*
 - **Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges**, (2020) [[paper]](http://www.sciencedirect.com/science/article/pii/S1566253519307377)  [[bib]](../bibtex.bib#L667-L679)  by *Timothée Lesort, Vincenzo Lomonaco, Andrei Stoian, Davide Maltoni, David Filliat and Natalia Díaz-Rodríguez*
+``` 
+Extensive review of CL methods and their applications in robotics and framework proposition for continual learning
+``` 
 
 ## Papers in 2019
 - **Efficient Lifelong Learning with {A-GEM}**, (2019) [[paper]](https://arxiv.org/abs/1812.00420)  [[bib]](../bibtex.bib#L17-L23)  by *Chaudhry, Arslan, Ranzato, Marc’Aurelio, Rohrbach, Marcus and Elhoseiny, Mohamed*
