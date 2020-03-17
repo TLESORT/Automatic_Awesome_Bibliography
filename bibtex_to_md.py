@@ -23,7 +23,7 @@ conferences = [["ICLR", "International Conference on Learning Representations"],
                ["IJCNN", "International Joint Conference on Neural Networks"],
                ["ICANN", "International Conference on Artificial Neural Networks"]]
 
-generate_md_file(DB=bib_db, list_classif=conferences, key="booktitle", plot_title_fct=plot_conf_title, filename= "Conferences_Bibliography.md")
+generate_md_file(DB=bib_db, list_classif=conferences, key="booktitle", plot_title_fct=plot_conf_title, filename= "Conferences_Bibliography.md", add_comments=False)
 
 
 ################################### SORT BY AUTHORS ####################################
@@ -35,7 +35,7 @@ years = []
 for i in range(1950, 2021):
     years.append([str(i)])
 years.reverse()
-generate_md_file(DB=bib_db, list_classif=years, key="year", plot_title_fct=plot_years_title, filename= "Chronological_Bibliography.md")
+generate_md_file(DB=bib_db, list_classif=years, key="year", plot_title_fct=plot_years_title, filename= "Chronological_Bibliography.md", add_comments=False)
 
 
 ################################### SORT BY KEYWORDS ####################################
@@ -51,7 +51,7 @@ keywords = [["Meta-Learning", "Meta"],
                ["Regularization"],
                ["Replay"]]
 
-generate_md_file(DB=bib_db, list_classif=keywords, key="keyword", plot_title_fct=plot_keyword_title, filename= "Classification_Bibliography.md")
+generate_md_file(DB=bib_db, list_classif=keywords, key="keyword", plot_title_fct=plot_keyword_title, filename= "Classification_Bibliography.md", add_comments=False)
 
 
 ################################### By ID List ####################################
@@ -62,7 +62,7 @@ def plot_by_ID_title(ID_name):
 IDs = [["Lifelong", "Ramapuram17","hou2018lifelong","Chen2018Lifelong","Soltoggio2019Born"],
        ["Generative Replay", "Shin17","lesort2018generative"]]
 
-generate_md_file(DB=bib_db, list_classif=IDs, key="ID", plot_title_fct=plot_by_ID_title, filename= "Selection_Bibliography.md")
+generate_md_file(DB=bib_db, list_classif=IDs, key="ID", plot_title_fct=plot_by_ID_title, filename= "Selection_Bibliography.md", add_comments=False)
 
 ################################### MY PAPERS ####################################
 
@@ -71,7 +71,7 @@ def plot_my_papers_title(_):
 
 authors = [["Lesort"]]
 
-generate_md_file(DB=bib_db, list_classif=authors, key="author", plot_title_fct=plot_my_papers_title, filename= "My_Bibliography.md")
+generate_md_file(DB=bib_db, list_classif=authors, key="author", plot_title_fct=plot_my_papers_title, filename= "My_Bibliography.md", add_comments=False)
 
 
 

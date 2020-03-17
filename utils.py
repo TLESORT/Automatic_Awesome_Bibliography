@@ -52,7 +52,7 @@ def create_bib_link(ID):
     # L66-L73
     return link
 
-def get_md_entry(DB, entry):
+def get_md_entry(DB, entry, add_comments=True):
     """
     Generate a markdown line for a specific entry
     :param entry: entry dictionary
@@ -73,11 +73,12 @@ def get_md_entry(DB, entry):
 
     md_str += '\n'
 
-    # maybe there is a comment to write
-    if entry['ID'].lower() in DB.strings:
-        md_str += '``` \n'
-        md_str += DB.strings[entry['ID'].lower()]
-        md_str += '\n``` \n'
+    if add_comments:
+        # maybe there is a comment to write
+        if entry['ID'].lower() in DB.strings:
+            md_str += '``` \n'
+            md_str += DB.strings[entry['ID'].lower()]
+            md_str += '\n``` \n'
 
     return md_str
 
