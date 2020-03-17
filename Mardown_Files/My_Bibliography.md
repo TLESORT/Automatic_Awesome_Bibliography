@@ -10,7 +10,4 @@ Natalia D{\'{\i}}az Rodr{\'{\i}}guez and
 David Filliat*
 - **Continual Reinforcement Learning deployed in Real-life using PolicyDistillation and Sim2Real Transfer**, (2019) [[bib]](../bibtex.bib#L689-L695)  by *Kalifou, René Traoré, Caselles-Dupré, Hugo, Lesort, Timothée, Sun, Te, Diaz-Rodriguez, Natalia and Filliat, David *
 - **Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges**, (2020) [[paper]](http://www.sciencedirect.com/science/article/pii/S1566253519307377)  [[bib]](../bibtex.bib#L739-L751)  by *Timothée Lesort, Vincenzo Lomonaco, Andrei Stoian, Davide Maltoni, David Filliat and Natalia Díaz-Rodríguez*
-``` 
-Extensive review of CL methods and their applications in robotics and framework proposition for continual learning
-``` 
 - **Marginal replay vs conditional replay for continual learning**, (2019) [[bib]](../bibtex.bib#L810-L818)  by *Lesort, Timoth{\'e}e, Gepperth, Alexander, Stoian, Andrei and Filliat, David*

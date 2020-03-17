@@ -1,9 +1,6 @@
 
 ## International Conference on Learning Representations (ICLR)
 - **Efficient Lifelong Learning with {A-GEM}**, (2019) [[paper]](https://arxiv.org/abs/1812.00420)  [[bib]](../bibtex.bib#L22-L29)  by *Chaudhry, Arslan, Ranzato, Marc’Aurelio, Rohrbach, Marcus and Elhoseiny, Mohamed*
-``` 
-More efficient GEM; Introduces online continual learning
-``` 
 - **Overcoming Catastrophic Interference using Conceptor-Aided Backpropagation**, (2018) [[paper]](https://openreview.net/forum?id=B1al7jg0b)  [[bib]](../bibtex.bib#L148-L155)  by *Xu He and Herbert Jaeger*
 - **Variational Continual Learning**, (2018) [[paper]](https://openreview.net/forum?id=BkQqq0gRb)  [[bib]](../bibtex.bib#L206-L213)  by *Cuong V. Nguyen, Yingzhen Li, Thang D. Bui and Richard E. Turner*
 - **Deep Online Learning Via Meta-Learning: Continual Adaptation for Model-Based {RL}**, (2019) [[paper]](https://openreview.net/forum?id=HyxAfnA5tm)  [[bib]](../bibtex.bib#L371-L378)  by *Anusha Nagabandi, Chelsea Finn and Sergey Levine*
@@ -31,13 +28,7 @@ More efficient GEM; Introduces online continual learning
 
 ## Neural Information Processing Systems (NeuriPS)
 - **Gradient Episodic Memory for Continual Learning**, (2017) [[paper]](http://papers.nips.cc/paper/7225-gradient-episodic-memory-for-continual-learning.pdf)  [[bib]](../bibtex.bib#L43-L53)  by *Lopez-Paz, David and Ranzato, Marc-Aurelio*
-``` 
-A model that alliviates CF via constrained optimization
-``` 
 - **Continual learning with deep generative replay**, (2017) [[bib]](../bibtex.bib#L57-L64)  by *Shin, Hanul, Lee, Jung Kwon, Kim, Jaehong and Kim, Jiwon*
-``` 
-Introduces generative replay
-``` 
 - **Uncertainty-based Continual Learning with Adaptive Regularization**, (2019) [[paper]](http://papers.nips.cc/paper/8690-uncertainty-based-continual-learning-with-adaptive-regularization.pdf)  [[bib]](../bibtex.bib#L126-L136)  by *Ahn, Hongjoon, Cha, Sungmin, Lee, Donggyu and Moon, Taesup*
 - **Lifelong learning with non-iid tasks**, (2015) [[bib]](../bibtex.bib#L156-L163)  by *Pentina, Anastasia and Lampert, Christoph H*
 - **Gradient based sample selection for online continual learning**, (2019) [[paper]](http://papers.nips.cc/paper/9354-gradient-based-sample-selection-for-online-continual-learning.pdf)  [[bib]](../bibtex.bib#L286-L296)  by *Aljundi, Rahaf, Lin, Min, Goujaud, Baptiste and Bengio, Yoshua*

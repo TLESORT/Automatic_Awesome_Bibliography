@@ -83,7 +83,7 @@ def get_md_entry(DB, entry, add_comments=True):
     return md_str
 
 
-def get_md(DB, item, key):
+def get_md(DB, item, key, add_comments):
     """
 
     :param DB: list of dictionary with bibtex
@@ -98,12 +98,12 @@ def get_md(DB, item, key):
     for i in range(number_of_entries):
         if key in DB.entries[i].keys():
             if any(elem in DB.entries[i][key] for elem in item):
-                all_str += get_md_entry(DB, DB.entries[i])
+                all_str += get_md_entry(DB, DB.entries[i], add_comments)
 
     return all_str
 
 
-def generate_md_file(DB, list_classif, key, plot_title_fct, filename):
+def generate_md_file(DB, list_classif, key, plot_title_fct, filename, add_comments=True):
     """
 
     :param DB: list of dictionnary with bibtex
@@ -118,7 +118,7 @@ def generate_md_file(DB, list_classif, key, plot_title_fct, filename):
 
     for item in list_classif:
 
-        str = get_md(DB, item, key)
+        str = get_md(DB, item, key, add_comments)
 
         if str != "":
             all_in_one_str += plot_title_fct(item)
