@@ -1,6 +1,10 @@
 ## Outline 
-- [Lifelong](https://github.com/TLESORT/Automatic_Awesome_Bibliography#Lifelong)
-- [Generative Replay](https://github.com/TLESORT/Automatic_Awesome_Bibliography#Generative-Replay)
+- [Lifelong](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Selection_Bibliography.md#
+Personnal-Selection-:-Lifelong
+)
+- [Generative Replay](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Selection_Bibliography.md#
+Personnal-Selection-:-Generative-Replay
+)
 
 ## Personnal Selection : Lifelong
 - **Lifelong Generative Modeling**, (2017) [[bib]](../bibtex.bib#L489-L495)  by *Ramapuram, Jason, Gregorova, Magda and Kalousis, Alexandros*

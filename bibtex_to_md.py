@@ -1,8 +1,11 @@
 from utils import generate_md_file
 import bibtexparser
+import os
 
 repository_url = "https://github.com/TLESORT/Automatic_Awesome_Bibliography"
 bibfile_name = 'bibtex.bib'
+folder_name = "Mardown_Files"
+
 with open(bibfile_name) as bibtex_file:
     bibtex_str = bibtex_file.read()
 
@@ -24,11 +27,12 @@ conferences_list = [["ICLR", "International Conference on Learning Representatio
                ["IJCNN", "International Joint Conference on Neural Networks"],
                ["ICANN", "International Conference on Artificial Neural Networks"]]
 
+output_file = os.path.join("Mardown_Files", "Conferences_Bibliography.md")
 generate_md_file(DB=bib_db,
                  list_classif=conferences_list,
                  key="booktitle",
                  plot_title_fct=plot_conf_title,
-                 filename="Conferences_Bibliography.md",
+                 filename=output_file,
                  url=repository_url,
                  bibfile=bibfile_name,
                  add_comments=False)
@@ -44,11 +48,13 @@ years = []
 for i in range(1950, 2021):
     years.append([str(i)])
 years.reverse()
+
+output_file = os.path.join(folder_name, "Chronological_Bibliography.md")
 generate_md_file(DB=bib_db,
                  list_classif=years,
                  key="year",
                  plot_title_fct=plot_years_title,
-                 filename="Chronological_Bibliography.md",
+                 filename=output_file,
                  url=repository_url,
                  bibfile=bibfile_name,
                  add_comments=False)
@@ -68,11 +74,12 @@ keywords = [["Meta-Learning", "Meta"],
             ["Regularization"],
             ["Replay"]]
 
+output_file = os.path.join(folder_name, "Classification_Bibliography.md")
 generate_md_file(DB=bib_db,
                  list_classif=keywords,
                  key="keyword",
                  plot_title_fct=plot_keyword_title,
-                 filename="Classification_Bibliography.md",
+                 filename=output_file,
                  url=repository_url,
                  bibfile=bibfile_name,
                  add_comments=False)
@@ -87,11 +94,12 @@ def plot_by_ID_title(ID_name):
 IDs = [["Lifelong", "Ramapuram17", "hou2018lifelong", "Chen2018Lifelong", "Soltoggio2019Born"],
        ["Generative Replay", "Shin17", "lesort2018generative"]]
 
+output_file = os.path.join(folder_name, "Selection_Bibliography.md")
 generate_md_file(DB=bib_db,
                  list_classif=IDs,
                  key="ID",
                  plot_title_fct=plot_by_ID_title,
-                 filename="Selection_Bibliography.md",
+                 filename=output_file,
                  url=repository_url,
                  bibfile=bibfile_name,
                  add_comments=False)
@@ -105,11 +113,12 @@ def plot_my_papers_title(_):
 
 authors = [["Lesort"]]
 
+output_file = os.path.join(folder_name, "My_Bibliography.md")
 generate_md_file(DB=bib_db,
                  list_classif=authors,
                  key="author",
                  plot_title_fct=plot_my_papers_title,
-                 filename="My_Bibliography.md",
+                 filename=output_file,
                  url=repository_url,
                  bibfile=bibfile_name,
                  add_comments=False)

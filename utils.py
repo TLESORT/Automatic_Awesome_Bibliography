@@ -103,12 +103,18 @@ def get_md(DB, item, key, bibfile, add_comments):
 
     return all_str
 
-def get_outline(list_classif, url):
 
+# exemple of full url:
+# https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#papers-in-2020
+def get_outline(list_classif, url, filename, plot_title_fct):
     str_outline = "## Outline \n"
 
+    full_url = os.path.join(url, "blob", "master", filename)
+
     for item in list_classif:
-        str_outline += "- [" + item[0] + "](" + url + "#" + item[0].replace(" ","-") + ')\n'
+        name_section = plot_title_fct(item).replace("## ", "")
+        name_section = name_section.replace(" ", "-")
+        str_outline += "- [" + item[0] + "](" + full_url + "#" + name_section + ')\n'
 
     return str_outline
 
@@ -139,11 +145,11 @@ def generate_md_file(DB, list_classif, key, plot_title_fct, filename, url, bibfi
             all_in_one_str += plot_title_fct(item)
             all_in_one_str += str
 
-    str_outline = get_outline(outline_list, url)
+    str_outline = get_outline(outline_list, url, filename, plot_title_fct)
 
     all_in_one_str = str_outline + all_in_one_str
 
-    path = os.path.join("./Mardown_Files/", filename)
+    path = os.path.join(filename)
     f = open(path, "w")
     f.write(all_in_one_str)
     f.close()
