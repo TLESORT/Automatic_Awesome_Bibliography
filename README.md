@@ -12,7 +12,7 @@ pip install bibtexparser
 ## Run the classification
 
 ```
-# python 2.x or 3.x
+# python 3.6
 # it is assumed that you use the file "bibtex.bib"
 python bibtex_to_md.py
 ```
@@ -20,7 +20,7 @@ python bibtex_to_md.py
 ## Modify the script
 
 The script is only searching for keywords in bibtex attributs' entries. Then, to modify you can modify the keywords, the attributs to evaluate or the bibtex.
-We use also simple functions to plot categories titles.
+We use simple functions to plot categories titles.
 The code should be easy to modify. 
 
 ## Examples of mardown files created in the topic of continual learning
@@ -36,3 +36,4 @@ The code should be easy to modify.
 
 - Add new entries in the bib files (yours if you want). Please be carefull to not add bibtex several times.
 - Create new mardowns files by modifying/improving the script
+- You can send me an email at : t dot lesort at gmail dot com
