@@ -27,7 +27,7 @@ The code should be easy to modify.
 
 - [Conferences Classification](Mardown_Files/Conferences_Bibliography.md)
 - [Chronological Classification](Mardown_Files/Chronological_Bibliography.md)
-- [Keywords Classification](Mardown_Files/Classification_Bibliography.md) (I need to add keywords in bibtex for this one)
+- [Keywords Classification](Mardown_Files/Classification_Bibliography.md) (I added manually Keywords in bibtex for this one)
 - [Specific Paper Selection by ID](Mardown_Files/Selection_Bibliography.md) (Almost ramdom selection)
 - [Specific Paper Selection by Author](Mardown_Files/My_Bibliography.md) (my papers ... )
 

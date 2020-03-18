@@ -113,6 +113,7 @@ def get_outline(list_classif, url, filename, plot_title_fct):
 
     for item in list_classif:
         name_section = plot_title_fct(item).replace("## ", "")
+        name_section = name_section.replace("(", "").replace(")", "") # it seems that title does not like "("
         name_section = name_section.replace(" ", "-").replace("\n", "")
         str_outline += "- [" + name_section + "](" + full_url + "#" + name_section + ')\n'
 

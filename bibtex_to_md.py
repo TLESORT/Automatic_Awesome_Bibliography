@@ -67,17 +67,17 @@ def plot_keyword_title(keyword):
     return '\n' + "## " + keyword[0] + '\n'
 
 
-keywords = [["Meta-Learning", "Meta"],
-            ["Rehearsal"],
+keywords = [["Rehearsal"],
             ["Generative Replay"],
             ["Dynamic Architecture"],
             ["Regularization"],
+            ["Meta-Learning", "Meta"],
             ["Replay"]]
 
 output_file = os.path.join(folder_name, "Classification_Bibliography.md")
 generate_md_file(DB=bib_db,
                  list_classif=keywords,
-                 key="keyword",
+                 key="keywords",
                  plot_title_fct=plot_keyword_title,
                  filename=output_file,
                  url=repository_url,
