@@ -1,31 +1,13 @@
 ## Outline 
-- [ICLR](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#
-International-Conference-on-Learning-Representations-(ICLR)
-)
-- [CVPR](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#
-Conference-on-Computer-Vision-and-Pattern-Recognition-(CVPR)
-)
-- [ICCV](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#
-International-Conference-on-Computer-Vision-(ICCV)
-)
-- [ECCV](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#
-European-Conference-on-Computer-Vision-(ECCV)
-)
-- [NeuriPS](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#
-Neural-Information-Processing-Systems-(NeuriPS)
-)
-- [ICML](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#
-International-Conference-on-Machine-Learning-(ICML)
-)
-- [IJCAI](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#
-International-Joint-Conference-on-Artificial-Intelligence-(IJCAI)
-)
-- [IJCNN](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#
-International-Joint-Conference-on-Neural-Networks-(IJCNN)
-)
-- [ICANN](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#
-International-Conference-on-Artificial-Neural-Networks-(ICANN)
-)
+- [ICLR](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#International-Conference-on-Learning-Representations-(ICLR))
+- [CVPR](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#Conference-on-Computer-Vision-and-Pattern-Recognition-(CVPR))
+- [ICCV](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#International-Conference-on-Computer-Vision-(ICCV))
+- [ECCV](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#European-Conference-on-Computer-Vision-(ECCV))
+- [NeuriPS](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#Neural-Information-Processing-Systems-(NeuriPS))
+- [ICML](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#International-Conference-on-Machine-Learning-(ICML))
+- [IJCAI](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#International-Joint-Conference-on-Artificial-Intelligence-(IJCAI))
+- [IJCNN](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#International-Joint-Conference-on-Neural-Networks-(IJCNN))
+- [ICANN](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Conferences_Bibliography.md#International-Conference-on-Artificial-Neural-Networks-(ICANN))
 
 ## International Conference on Learning Representations (ICLR)
 - **Efficient Lifelong Learning with {A-GEM}**, (2019) [[paper]](https://arxiv.org/abs/1812.00420)  [[bib]](../bibtex.bib#L21-L28)  by *Chaudhry, Arslan, Ranzato, Marc’Aurelio, Rohrbach, Marcus and Elhoseiny, Mohamed*

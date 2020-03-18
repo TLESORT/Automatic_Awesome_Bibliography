@@ -1,7 +1,5 @@
 ## Outline 
-- [Lesort](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/My_Bibliography.md#
-My-Papers
-)
+- [Lesort](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/My_Bibliography.md#My-Papers)
 
 ## My Papers
 - **{Generative Models from the perspective of Continual Learning}**, (2019) [[paper]](https://hal.archives-ouvertes.fr/hal-01951954)  [[bib]](../bibtex.bib#L475-L487)  by *Lesort, Timoth{\'e}e, Caselles-Dupr{\'e}, Hugo, Garcia-Ortiz, Michael, Goudou, Jean-Fran{\c c}ois and Filliat, David*
