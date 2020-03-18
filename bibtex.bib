@@ -5,8 +5,7 @@
   pages={165--196},
   year={1995},
   publisher={Springer},
-  keyword={Classics},
-    keywords = {}
+  keywords={Classics}
 }
 @String(Thrun95="Argues knowledge transfer is essential if robots are to learn control with moderate learning times")
 
@@ -25,7 +24,7 @@
   booktitle={ICLR},
   year={2019},
   url = {https://arxiv.org/abs/1812.00420},
-    keywords = {Rehearsal, Regularization}
+    keywords = {Rehearsal, Regularization, Influential}
 }
 @String(Chaudhry19="More efficient GEM; Introduces online continual learning")
 
@@ -35,7 +34,7 @@
   journal={Proc. of the national academy of sciences},
   year={2017},
   publisher={National Acad Sciences},
-    keywords = {Regularization}
+    keywords = {Regularization, Influential}
 }
 @String(Kirkpatrick17="Introduces prior-focused methods")
 
@@ -49,7 +48,7 @@ pages = {6467--6476},
 year = {2017},
 publisher = {Curran Associates, Inc.},
 url = {http://papers.nips.cc/paper/7225-gradient-episodic-memory-for-continual-learning.pdf},
-    keywords = {Rehearsal, Regularization}
+    keywords = {Rehearsal, Regularization, Influential}
 }
 @String(Lopez-Paz17="A model that alliviates CF via constrained optimization")
 
@@ -60,7 +59,7 @@ url = {http://papers.nips.cc/paper/7225-gradient-episodic-memory-for-continual-l
   booktitle={Advances in Neural Information Processing Systems},
   pages={2990--2999},
   year={2017},
-    keywords = {Generative Replay}
+    keywords = {Generative Replay, Influential}
 }
 @String(Shin17="Introduces generative replay")
 
@@ -72,7 +71,7 @@ url = {http://papers.nips.cc/paper/7225-gradient-episodic-memory-for-continual-l
 archivePrefix = "arXiv",
    eprint = {1312.6211},
  primaryClass = "stat.ML",
- keywords = {Statistics - Machine Learning, Computer Science - Learning, Computer Science - Neural and Evolutionary Computing, Empirical Study},
+ keywords = {Statistics - Machine Learning, Computer Science - Learning, Computer Science - Neural and Evolutionary Computing, Empirical Study, Influential},
      year = {2013},
     month = {dec},
    adsurl = {http://adsabs.harvard.edu/abs/2013arXiv1312.6211G},
@@ -86,7 +85,7 @@ archivePrefix = "arXiv",
     year={2019},
     eprint={1909.08383},
     archivePrefix={arXiv},
-    primaryClass={cs.CV}
+    primaryClass={cs.CV},
     keywords = "Survey"
 }
 @String(lange2019continual = "Extensive empirical study of CL methods (in the multi-head setting)")
@@ -105,14 +104,33 @@ keywords = "Continual learning, Lifelong learning, Catastrophic forgetting, Deve
 }
 @String(Parisi18review="An extensive review of CL")
 
+@inproceedings{hung2019compacting,
+  title={Compacting, Picking and Growing for Unforgetting Continual Learning},
+  author={Hung, Ching-Yi and Tu, Cheng-Hao and Wu, Cheng-En and Chen, Chien-Hung and Chan, Yi-Ming and Chen, Chu-Song},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={13647--13657},
+  year={2019},
+    keywords = {Hybrid}
+}
+
+
 @article{Swaroop2019ImprovingAU,
   title={Improving and Understanding Variational Continual Learning},
   author={Siddharth Swaroop and Cuong V. Nguyen and Thang D. Bui and Richard E. Turner},
   journal={ArXiv},
   year={2019},
   volume={abs/1905.02099},
-    keywords = {}
+    keywords = {Regularization}
 }
+
+@article{lee2020neural,
+  title={A Neural Dirichlet Process Mixture Model for Task-Free Continual Learning},
+  author={Lee, Soochan and Ha, Junsoo and Zhang, Dongsu and Kim, Gunhee},
+  journal={arXiv preprint arXiv:2001.00689},
+  year={2020},
+    keywords = {Dynamic Architecture}
+}
+
 
 @article{Ebrahimi2019UncertaintyguidedCL,
   title={Uncertainty-guided Continual Learning with Bayesian Neural Networks},
@@ -120,7 +138,7 @@ keywords = "Continual learning, Lifelong learning, Catastrophic forgetting, Deve
   journal={ArXiv},
   year={2019},
   volume={abs/1906.02425},
-    keywords = {}
+    keywords = {Regularization}
 }
 
 @incollection{NIPS2019_8690,
@@ -132,7 +150,7 @@ pages = {4394--4404},
 year = {2019},
 publisher = {Curran Associates, Inc.},
 url = {http://papers.nips.cc/paper/8690-uncertainty-based-continual-learning-with-adaptive-regularization.pdf},
-    keywords = {}
+    keywords = {Regularization}
 }
 
 @misc{zeno2018task,
@@ -142,8 +160,55 @@ url = {http://papers.nips.cc/paper/8690-uncertainty-based-continual-learning-wit
     eprint={1803.10123},
     archivePrefix={arXiv},
     primaryClass={stat.ML},
-    keywords = {}
+    keywords = {Regularization}
 }
+
+@article{adel2019continual,
+  title={Continual Learning with Adaptive Weights (CLAW)},
+  author={Adel, Tameem and Zhao, Han and Turner, Richard E},
+  journal={arXiv preprint arXiv:1911.09514},
+  year={2019},
+    keywords = {Dynamic Architecture}
+}
+
+@article{DBLP:journals/corr/abs-1902-09432,
+  author    = {Jaehong Yoon and
+               Saehoon Kim and
+               Eunho Yang and
+               Sung Ju Hwang},
+  title     = {{ORACLE:} Order Robust Adaptive Continual LEarning},
+  journal   = {CoRR},
+  volume    = {abs/1902.09432},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1902.09432},
+  archivePrefix = {arXiv},
+  eprint    = {1902.09432},
+  timestamp = {Tue, 21 May 2019 18:03:36 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1902-09432.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+    keywords = {Dynamic Architecture}
+}
+
+@article{Rajasegaran2019Random,
+  author    = {Jathushan Rajasegaran and
+               Munawar Hayat and
+               Salman H. Khan and
+               Fahad Shahbaz Khan and
+               Ling Shao},
+  title     = {Random Path Selection for Incremental Learning},
+  journal   = {CoRR},
+  volume    = {abs/1906.01120},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1906.01120},
+  archivePrefix = {arXiv},
+  eprint    = {1906.01120},
+  timestamp = {Fri, 06 Dec 2019 16:34:40 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1906-01120.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+    keywords = {Dynamic Architecture}
+}
+
+
 
 @inproceedings{He18,
 title={Overcoming Catastrophic Interference using Conceptor-Aided Backpropagation},
@@ -151,7 +216,7 @@ author={Xu He and Herbert Jaeger},
 booktitle={International Conference on Learning Representations},
 year={2018},
 url={https://openreview.net/forum?id=B1al7jg0b},
-    keywords = {}
+    keywords = {Regularization}
 }
 @inproceedings{Pentina15,
   title={Lifelong learning with non-iid tasks},
@@ -177,7 +242,7 @@ url={https://openreview.net/forum?id=B1al7jg0b},
   publisher = 	 {PMLR},
   pdf = 	 {http://proceedings.mlr.press/v80/serra18a/serra18a.pdf},
   url = 	 {http://proceedings.mlr.press/v80/serra18a.html},
-    keywords = {}
+    keywords = {Regularization}
 }
 
 @inproceedings{chaudhry2018riemannian,
@@ -185,7 +250,7 @@ url={https://openreview.net/forum?id=B1al7jg0b},
   author={Chaudhry, Arslan and Dokania, Puneet K and Ajanthan, Thalaiyasingam and Torr, Philip HS},
   booktitle={ECCV},
   year={2018},
-    keywords = {}
+    keywords = {Regularization}
 }
 
 @article{Aljundi17,
@@ -200,7 +265,7 @@ url={https://openreview.net/forum?id=B1al7jg0b},
   timestamp = {Mon, 13 Aug 2018 16:47:14 +0200},
   biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1711-09601},
   bibsource = {dblp computer science bibliography, https://dblp.org},
-    keywords = {}
+    keywords = {Regularization}
 }
 
 @inproceedings{Nguyen17,
@@ -209,7 +274,7 @@ author={Cuong V. Nguyen and Yingzhen Li and Thang D. Bui and Richard E. Turner},
 booktitle={International Conference on Learning Representations},
 year={2018},
 url={https://openreview.net/forum?id=BkQqq0gRb},
-    keywords = {}
+    keywords = {Regularization}
 }
 
 @InProceedings{Zenke17,
@@ -226,8 +291,9 @@ url={https://openreview.net/forum?id=BkQqq0gRb},
   publisher = 	 {PMLR},
   pdf = 	 {http://proceedings.mlr.press/v70/zenke17a/zenke17a.pdf},
   url = 	 {http://proceedings.mlr.press/v70/zenke17a.html},
-    keywords = {}
+    keywords = {Regularization}
 }
+@String{Zenke17="Synaptic Intelligence (SI). Importance of parameter measured based on their contribution to change in the loss. "}
 
 @article{Li17,
   title={Learning without forgetting},
@@ -235,7 +301,7 @@ url={https://openreview.net/forum?id=BkQqq0gRb},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year={2017},
   publisher={IEEE},
-    keywords = {}
+    keywords = {Distillation}
 }
 
 @misc{li2019continual,
@@ -254,7 +320,7 @@ title={Incremental Learning through Deep Adaptation},
 author={Amir Rosenfeld and John K. Tsotsos},
 year={2018},
 url={https://openreview.net/forum?id=ryj0790hb},
-    keywords = {}
+    keywords = {Dynamic Architecture}
 }
 
 @ARTICLE{Rusu16progressive,
@@ -280,7 +346,7 @@ archivePrefix = "arXiv",
     eprint={1910.07104},
     archivePrefix={arXiv},
     primaryClass={cs.LG},
-    keywords = {}
+    keywords = {Rehearsal}
 }
 
 @incollection{Aljundi2019Gradient,
@@ -292,7 +358,7 @@ pages = {11816--11825},
 year = {2019},
 publisher = {Curran Associates, Inc.},
 url = {http://papers.nips.cc/paper/9354-gradient-based-sample-selection-for-online-continual-learning.pdf},
-    keywords = {}
+    keywords = {Rehearsal}
 }
 
 @incollection{Aljundi2019Online,
@@ -306,6 +372,15 @@ publisher = {Curran Associates, Inc.},
 url = {http://papers.nips.cc/paper/9357-online-continual-learning-with-maximal-interfered-retrieval.pdf},
     keywords = {}
 }
+
+@article{caccia2019online,
+  title={Online Learned Continual Compression with Stacked Quantization Module},
+  author={Caccia, Lucas and Belilovsky, Eugene and Caccia, Massimo and Pineau, Joelle},
+  journal={arXiv preprint arXiv:1911.08019},
+  year={2019},
+    keywords = {Rehearsal}
+}
+
 
 @article{Ven2018GenerativeRW,
   title={Generative replay with feedback connections as a general strategy for continual learning},
@@ -325,7 +400,7 @@ pages = {1818--1828},
 year = {2019},
 publisher = {Curran Associates, Inc.},
 url = {http://papers.nips.cc/paper/8458-meta-learning-representations-for-continual-learning.pdf},
-    keywords = {}
+    keywords = {Meta Continual Learning}
 }
 
 @misc{luo2019learning,
@@ -335,7 +410,17 @@ url = {http://papers.nips.cc/paper/8458-meta-learning-representations-for-contin
     eprint={1911.04695},
     archivePrefix={arXiv},
     primaryClass={cs.LG},
-    keywords = {}
+    keywords = {Continual Meta Learning}
+}
+
+@inproceedings{
+Kurle2020Continual,
+title={Continual Learning with Bayesian Neural Networks for Non-Stationary Data},
+author={Richard Kurle and Botond Cseke and Alexej Klushyn and Patrick van der Smagt and Stephan Günnemann},
+booktitle={International Conference on Learning Representations},
+year={2020},
+url={https://openreview.net/forum?id=SJlsFpVtDB},
+    keywords = {Regularization}
 }
 
 @InProceedings{pmlr-v97-finn19a,
@@ -352,7 +437,7 @@ url = {http://papers.nips.cc/paper/8458-meta-learning-representations-for-contin
   publisher = 	 {PMLR},
   pdf = 	 {http://proceedings.mlr.press/v97/finn19a/finn19a.pdf},
   url = 	 {http://proceedings.mlr.press/v97/finn19a.html},
-    keywords = {}
+    keywords = {Continual Meta Learning}
 }
 
 @incollection{NIPS2019_9112,
@@ -364,7 +449,7 @@ pages = {9119--9130},
 year = {2019},
 publisher = {Curran Associates, Inc.},
 url = {http://papers.nips.cc/paper/9112-reconciling-meta-learning-and-continual-learning-with-online-mixtures-of-tasks.pdf},
-    keywords = {}
+    keywords = {Continual Meta Learning}
 }
 
 @inproceedings{
@@ -374,7 +459,7 @@ author={Anusha Nagabandi and Chelsea Finn and Sergey Levine},
 booktitle={International Conference on Learning Representations},
 year={2019},
 url={https://openreview.net/forum?id=HyxAfnA5tm},
-    keywords = {}
+    keywords = {Continual Meta Learning}
 }
 
 @misc{rao2019continual,
@@ -384,7 +469,7 @@ url={https://openreview.net/forum?id=HyxAfnA5tm},
     eprint={1910.14481},
     archivePrefix={arXiv},
     primaryClass={cs.LG},
-    keywords = {}
+    keywords = {Generative Modeling}
 }
 
 @inproceedings{lesort2018generative,
@@ -397,7 +482,7 @@ url={https://openreview.net/forum?id=HyxAfnA5tm},
   MONTH = {Jul},
   PDF = {https://hal.archives-ouvertes.fr/hal-01951954/file/_NIPS_CL_Workshop__Continual_learning_for_generative_models.pdf},
   HAL_ID = {hal-01951954},
-  keywords = {"Empirical Study"},
+  keywords = {"Empirical Study", "Generative Modeling", "Generative Replay"},
   HAL_VERSION = {v1},
 }
 
@@ -406,7 +491,7 @@ url={https://openreview.net/forum?id=HyxAfnA5tm},
   author={Ramapuram, Jason and Gregorova, Magda and Kalousis, Alexandros},
   journal={arXiv preprint arXiv:1705.09847},
   year={2017},
-    keywords = {}
+    keywords = {Generative Modeling}
 }
 
 @inproceedings{Alet2018ModularM,
@@ -435,15 +520,14 @@ booktitle={Submitted to International Conference on Learning Representations},
 year={2020},
 url={https://openreview.net/forum?id=SJgwNerKvB},
 note={under review},
-    keywords = {}
+    keywords = {Hybrid}
 }
 
 @inproceedings{McCloskey1989CatastrophicII,
   title={Catastrophic Interference in Connectionist Networks: The Sequential Learning Problem},
   author={Michael McCloskey and Neal J. Cohen},
   year={1989},
-  keyword={Classics},
-    keywords = {"Classics"}
+  keywords={Classics}
 }
 @String(McCloskey1989CatastrophicII="Introduces CL and reveals the catastrophic forgetting problem")
 
@@ -453,7 +537,7 @@ note={under review},
   journal={ArXiv},
   year={2019},
   volume={abs/1906.05201},
-    keywords = {"Meta-Learning,"}
+    keywords = {"Continual Meta Learning"}
 }
 
 @article{Harrison2019ContinuousMW,
@@ -479,7 +563,7 @@ note={under review},
   booktitle={Proceedings of the IEEE International Conference on Computer Vision},
   pages={312--321},
   year={2019},
-    keywords = {}
+    keywords = {Distillation}
 }
 
 @inproceedings{wu2019large,
@@ -488,7 +572,7 @@ note={under review},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   pages={374--382},
   year={2019},
-    keywords = {}
+    keywords = {Distillation}
 }
 
 @inproceedings{hou2018lifelong,
@@ -497,7 +581,7 @@ note={under review},
   booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
   pages={437--452},
   year={2018},
-    keywords = {}
+    keywords = {Distillation}
 }
 
 @inproceedings{castro2018end,
@@ -506,7 +590,7 @@ note={under review},
   booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
   pages={233--248},
   year={2018},
-    keywords = {}
+    keywords = {Distillation}
 }
 
 @inproceedings{rebuffi2017icarl,
@@ -515,7 +599,7 @@ note={under review},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   pages={2001--2010},
   year={2017},
-    keywords = {}
+    keywords = {Distillation, Rehearsal}
 }
 
 @InProceedings{Hou_2019_CVPR,
@@ -559,7 +643,7 @@ year = {2019},
   author={Schwarz, Jonathan and Luketina, Jelena and Czarnecki, Wojciech M and Grabska-Barwinska, Agnieszka and Teh, Yee Whye and Pascanu, Razvan and Hadsell, Raia},
   booktitle={ICML},
   year={2018},
-    keywords = {}
+    keywords = {Regularization}
 }
 
 @inproceedings{finn2017model,
@@ -766,6 +850,14 @@ volume = {3},
 year = {1999},
     keywords = {}
 }
+@inproceedings{titsias2019functional,
+  title={Functional Regularisation for Continual Learning with Gaussian Processes},
+  author={Titsias, Michalis K and Schwarz, Jonathan and Matthews, Alexander G de G and Pascanu, Razvan and Teh, Yee Whye},
+  booktitle={International Conference on Learning Representations},
+  year={2019},
+    keywords = {Regularization}
+}
+
 
 @article{Maltoni18,
   title={Continuous Learning in Single-Incremental-Task Scenarios},
@@ -814,7 +906,7 @@ archivePrefix = "arXiv",
   pages={466--480},
   year={2019},
   organization={Springer},
-    keywords = {Generative Replay, Classification}
+    keywords = {Generative Replay", Classification}
 }
 
 @article{Collet15,
@@ -828,5 +920,41 @@ archivePrefix = "arXiv",
   publisher={SAGE Publications Sage UK: London, England},
     keywords = {Robotics}
 }
+
+
+@article{beaulieu2020learning,
+  title={Learning to Continually Learn},
+  author={Beaulieu, Shawn and Frati, Lapo and Miconi, Thomas and Lehman, Joel and Stanley, Kenneth O and Clune, Jeff and Cheney, Nick},
+  journal={arXiv preprint arXiv:2002.09571},
+  year={2020},
+    keywords = {Meta Continual Learning}
+}
+
+@article{spigler2019meta,
+  title={Meta-learnt priors slow down catastrophic forgetting in neural networks},
+  author={Spigler, Giacomo},
+  journal={arXiv preprint arXiv:1909.04170},
+  year={2019},
+    keywords = {Meta Continual Learning}
+}
+
+
+@article{riemer2018learning,
+  title={Learning to learn without forgetting by maximizing transfer and minimizing interference},
+  author={Riemer, Matthew and Cases, Ignacio and Ajemian, Robert and Liu, Miao and Rish, Irina and Tu, Yuhai and Tesauro, Gerald},
+  journal={arXiv preprint arXiv:1810.11910},
+  year={2018},
+    keywords = {Meta Continual Learning}
+}
+
+@inproceedings{rolnick2019experience,
+  title={Experience replay for continual learning},
+  author={Rolnick, David and Ahuja, Arun and Schwarz, Jonathan and Lillicrap, Timothy and Wayne, Gregory},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={348--358},
+  year={2019},
+    keywords = {Reinforcement, Rehearsal}
+}
+
 
 
