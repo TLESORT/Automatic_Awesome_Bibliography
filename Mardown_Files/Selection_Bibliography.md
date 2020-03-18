@@ -10,4 +10,4 @@
 
 ## Personnal Selection : Generative Replay
 - **Continual learning with deep generative replay**, (2017) [[bib]](../bibtex.bib#L56-L63)  by *Shin, Hanul, Lee, Jung Kwon, Kim, Jaehong and Kim, Jiwon*
-- **{Generative Models from the perspective of Continual Learning}**, (2019) [[paper]](https://hal.archives-ouvertes.fr/hal-01951954)  [[bib]](../bibtex.bib#L475-L487)  by *Lesort, Timoth{\'e}e, Caselles-Dupr{\'e}, Hugo, Garcia-Ortiz, Michael, Goudou, Jean-Fran{\c c}ois and Filliat, David*
+- **Generative Models from the perspective of Continual Learning**, (2019) [[paper]](https://hal.archives-ouvertes.fr/hal-01951954)  [[bib]](../bibtex.bib#L475-L487)  by *Lesort, Timoth{\'e}e, Caselles-Dupr{\'e}, Hugo, Garcia-Ortiz, Michael, Goudou, Jean-Fran{\c c}ois and Filliat, David*

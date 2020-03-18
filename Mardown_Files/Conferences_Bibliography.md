@@ -63,7 +63,7 @@
 - **Closed-loop Memory GAN for Continual Learning**, (2019) [[paper]](http://dl.acm.org/citation.cfm?id=3367471.3367504)  [[bib]](../bibtex.bib#L781-L795)  by *Rios, Amanda and Itti, Laurent*
 
 ## International Joint Conference on Neural Networks (IJCNN)
-- **{Generative Models from the perspective of Continual Learning}**, (2019) [[paper]](https://hal.archives-ouvertes.fr/hal-01951954)  [[bib]](../bibtex.bib#L475-L487)  by *Lesort, Timoth{\'e}e, Caselles-Dupr{\'e}, Hugo, Garcia-Ortiz, Michael, Goudou, Jean-Fran{\c c}ois and Filliat, David*
+- **Generative Models from the perspective of Continual Learning**, (2019) [[paper]](https://hal.archives-ouvertes.fr/hal-01951954)  [[bib]](../bibtex.bib#L475-L487)  by *Lesort, Timoth{\'e}e, Caselles-Dupr{\'e}, Hugo, Garcia-Ortiz, Michael, Goudou, Jean-Fran{\c c}ois and Filliat, David*
 
 ## International Conference on Artificial Neural Networks (ICANN)
 - **Marginal replay vs conditional replay for continual learning**, (2019) [[bib]](../bibtex.bib#L902-L910)  by *Lesort, Timoth{\'e}e, Gepperth, Alexander, Stoian, Andrei and Filliat, David*

@@ -2,7 +2,7 @@
 - [My-Papers](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/My_Bibliography.md#My-Papers)
 
 ## My Papers
-- **{Generative Models from the perspective of Continual Learning}**, (2019) [[paper]](https://hal.archives-ouvertes.fr/hal-01951954)  [[bib]](../bibtex.bib#L475-L487)  by *Lesort, Timoth{\'e}e, Caselles-Dupr{\'e}, Hugo, Garcia-Ortiz, Michael, Goudou, Jean-Fran{\c c}ois and Filliat, David*
+- **Generative Models from the perspective of Continual Learning**, (2019) [[paper]](https://hal.archives-ouvertes.fr/hal-01951954)  [[bib]](../bibtex.bib#L475-L487)  by *Lesort, Timoth{\'e}e, Caselles-Dupr{\'e}, Hugo, Garcia-Ortiz, Michael, Goudou, Jean-Fran{\c c}ois and Filliat, David*
 - **DisCoRL: Continual Reinforcement Learning via Policy Distillation**, (2019) [[paper]](http://arxiv.org/abs/1907.05855)  [[bib]](../bibtex.bib#L752-L771)  by *Ren{\'{e}} Traor{\'{e}} and
 Hugo Caselles{-}Dupr{\'{e}} and
 Timoth{\'{e}}e Lesort and
