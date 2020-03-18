@@ -1,14 +1,14 @@
 ## Outline 
-- [2020](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2020)
-- [2019](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2019)
-- [2018](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2018)
-- [2017](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2017)
-- [2016](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2016)
-- [2015](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2015)
-- [2013](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2013)
-- [1999](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-1999)
-- [1995](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-1995)
-- [1989](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-1989)
+- [Papers-in-2020](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2020)
+- [Papers-in-2019](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2019)
+- [Papers-in-2018](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2018)
+- [Papers-in-2017](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2017)
+- [Papers-in-2016](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2016)
+- [Papers-in-2015](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2015)
+- [Papers-in-2013](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-2013)
+- [Papers-in-1999](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-1999)
+- [Papers-in-1995](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-1995)
+- [Papers-in-1989](https://github.com/TLESORT/Automatic_Awesome_Bibliography/blob/master/Mardown_Files/Chronological_Bibliography.md#Papers-in-1989)
 
 ## Papers in 2020
 - **A Neural Dirichlet Process Mixture Model for Task-Free Continual Learning**, (2020) [[bib]](../bibtex.bib#L126-L132)  by *Lee, Soochan, Ha, Junsoo, Zhang, Dongsu and Kim, Gunhee*
