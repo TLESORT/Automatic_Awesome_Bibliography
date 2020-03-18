@@ -1,4 +1,4 @@
-# Generate automatically awesome lists from bibtex
+# Generate automatically awesome lists from a bibtex file
 Automatic script to parse bibtex to mardown to create manageable bibliography github repository. We take the example of continual learning to illustrate the script.
 
 
@@ -34,6 +34,6 @@ The code should be easy to modify.
 
 ## How to contribute
 
-- Add new entries in the bib files (yours if you want). Please be carefull to not add bibtex several times.
+- Add new entries in the bib files (your paper bibtex if you want). Please be carefull to not add bibtex several times.
 - Create new mardowns files by modifying/improving the script
 - You can send me an email at : t dot lesort at gmail dot com
