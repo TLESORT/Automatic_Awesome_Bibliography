@@ -19,7 +19,7 @@ python bibtex_to_md.py
 
 ## Modify the script
 
-The script is only searching for keywords in bibtex attributs' entries. Then, to modify you can modify the keywords, the attributs to evaluate or the bibtex.
+The script is searching for keywords in bibtex attributs' entries. Then, to modify you can modify the keywords, the attributs to evaluate or the bibtex.
 We use simple functions to plot categories titles.
 The code should be easy to modify. 
 
