@@ -5,6 +5,7 @@ import os
 repository_url = "https://github.com/TLESORT/Automatic_Awesome_Bibliography"
 bibfile_name = 'bibtex.bib'
 folder_name = "Mardown_Files"
+add_comments = False
 
 with open(bibfile_name) as bibtex_file:
     bibtex_str = bibtex_file.read()
@@ -35,7 +36,7 @@ generate_md_file(DB=bib_db,
                  filename=output_file,
                  url=repository_url,
                  bibfile=bibfile_name,
-                 add_comments=False)
+                 add_comments=add_comments)
 
 
 ################################### SORT BY AUTHORS ####################################
@@ -57,7 +58,7 @@ generate_md_file(DB=bib_db,
                  filename=output_file,
                  url=repository_url,
                  bibfile=bibfile_name,
-                 add_comments=False)
+                 add_comments=add_comments)
 
 
 ################################### SORT BY KEYWORDS ####################################
@@ -82,7 +83,7 @@ generate_md_file(DB=bib_db,
                  filename=output_file,
                  url=repository_url,
                  bibfile=bibfile_name,
-                 add_comments=False)
+                 add_comments=add_comments)
 
 
 ################################### By ID List ####################################
@@ -102,7 +103,7 @@ generate_md_file(DB=bib_db,
                  filename=output_file,
                  url=repository_url,
                  bibfile=bibfile_name,
-                 add_comments=False)
+                 add_comments=add_comments)
 
 
 ################################### MY PAPERS ####################################
@@ -121,4 +122,4 @@ generate_md_file(DB=bib_db,
                  filename=output_file,
                  url=repository_url,
                  bibfile=bibfile_name,
-                 add_comments=False)
+                 add_comments=add_comments)

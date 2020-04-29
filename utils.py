@@ -1,6 +1,4 @@
 import os
-import bibtexparser
-
 
 def keep_last_and_only(authors_str):
     """
@@ -18,11 +16,10 @@ def keep_last_and_only(authors_str):
     return str_ok
 
 
-def get_bibtex_line(file, ID):
-    filename = "bibtex.bib"
+def get_bibtex_line(bibfile, ID):
     start_line_number = 0
     end_line_number = 0
-    with open(filename, encoding="utf-8") as myFile:
+    with open(bibfile, encoding="utf-8") as myFile:
         for num, line in enumerate(myFile, 1):
 
             # first we look for the beginning line
@@ -44,11 +41,10 @@ def get_bibtex_line(file, ID):
 
 
 def create_bib_link(ID, bibfile):
-    link = "bibtex.bib"
-    start_bib, end_bib = get_bibtex_line(link, ID)
+    start_bib, end_bib = get_bibtex_line(bibfile, ID)
 
     # bibtex file is one folder upon markdown files
-    link = "../" + link
+    link = "../" + bibfile
     link += "#L" + str(start_bib) + "-L" + str(end_bib)
 
     # L66-L73
@@ -76,6 +72,7 @@ def get_md_entry(DB, entry, bibfile, add_comments=True):
     md_str += '\n'
 
     if add_comments:
+
         # maybe there is a comment to write
         if entry['ID'].lower() in DB.strings:
             md_str += '``` \n'
@@ -101,7 +98,7 @@ def get_md(DB, item, key, bibfile, add_comments):
     for i in range(number_of_entries):
         if key in DB.entries[i].keys():
             if any(elem in DB.entries[i][key] for elem in item):
-                str_md = get_md_entry(DB, DB.entries[i], add_comments)
+                str_md = get_md_entry(DB, DB.entries[i], bibfile, add_comments)
                 list_entry.update({str_md:DB.entries[i]['year']})
 
 
